@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+	</script>
+	<script src="main.js"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+	<!-- jQuery library -->
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<title>Newspaper</title>
+</head>
+<body>
+	<nav class="navbar navbar-inverse sidebar" role="navigation">
+    <div class="container-fluid">
+		
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Welcome!</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+				<li ><a href="#">Profile<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+				<li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Post Settings <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
+					<ul class="dropdown-menu forAnimate" role="menu">
+						<li><a href="#">Create a Post</a></li>
+						<li class="divider"></li>
+						<li><a href="#">My Posts</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Delete a Post</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	<div class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<div id="postlist">
+					<div class="panel">
+		                <div class="panel-heading">
+		                    <div class="text-center">
+		                        <div class="row">
+		                            <div class="col-sm-10">
+		                                <h2 class="pull-center">Horror en Chacarita: salio a bailar y fue violada por el taxista que la llevaba</h2>
+		                            </div>
+		                            <div class="col-sm-2">
+		                                <h5 class="pull-right">
+		                                <small><em>20-04-2015<br>18:30:00</em></small>
+		                                </h5>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		                
+		            <div class="panel-body">
+		            	<a href="#" class="thumbnail">
+		                    <img alt="Image" src="http://www.minutouno.com/adjuntos/150/imagenes/008/242/0008242283.jpg">
+		                </a>
+		                Un chofer abusó de una chica de 20 años, que tras juntarse con amigas en un bar de Olleros y Álvarez Thomas, terminó siendo víctima de un ataque sexual. "Tengo SIDA, no me haga nada", intentó defenderse...<a href="#"> Read more</a>
+		            </div>
+		            
+		            <div class="panel-footer">
+		                <span class="label label-default">Welcome</span> <span class="label label-default">Updates</span> <span class="label label-default">April</span>
+		            </div>
+		        </div>
+		        
+		        <div class="panel">
+		                <div class="panel-heading">
+		                    <div class="text-center">
+		                        <div class="row">
+		                            <div class="col-sm-9">
+		                                <h3 class="pull-left">Post With image</h3>
+		                            </div>
+		                            <div class="col-sm-3">
+		                                <h5 class="pull-right">
+		                                <small><em>20-04-2015 18:30:00</em></small>
+		                                </h5>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div
+>		                
+		            <div class="panel-body">
+		                <a href="#" class="thumbnail">
+		                    <img alt="Image" src="http://i.imgur.com/tAHVmXi.jpg">
+		                </a>
+		                Lovely cascade with... <a href="#">Read more</a>
+		            </div>
+		            
+		            <div class="panel-footer">
+		                <span class="label label-default">Image</span> <span class="label label-default">Updates</span> <span class="label label-default">April</span>
+		            </div>
+		        </div>
+		    </div>
+				<div class="text-center" style="padding-bottom: 25px;"><a href="#" id="loadmore" class="btn btn-primary">Older Posts...</a></div>
+		</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-1">
+			</div>
+		</div>
+		</div>
+	</div>
+	
+</body>
+</html>
