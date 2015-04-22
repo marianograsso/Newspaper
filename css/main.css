@@ -2,6 +2,11 @@
 		height: 100%;
 	}
 
+	h2 {
+		font-weight: 0;
+		text-align: start;
+	}
+
 	/* remove outer padding */
 	.main .row{
 		padding: 0px;
